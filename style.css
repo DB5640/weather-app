@@ -83,9 +83,17 @@ width: 16px;
 }
 .humidity, .wind{
     font-size: 30px;
-    margin-top: -6px;
+    margin: 0;
+    /* margin-top: -16px; */
     
 }
-.humidity p, .wind p{
-    margin: 0;
+.weather{
+    display: none;
+}
+.error{
+ text-align: left;
+ margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
 }
