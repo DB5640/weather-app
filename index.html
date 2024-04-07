@@ -15,7 +15,7 @@
             <button><img src="images/search.png"></button>
         </div>
         <div class="error">
-            <p>Invalid city name</p>
+            <p>Nombre de ciudad Inválido</p>
         </div>
         <div class="weather">
             <img src="images/rain.png" class="weather-icon">
@@ -60,7 +60,7 @@
 
             if (response.status == 404) {
                 document.querySelector(".error").style.display = "block";
-                document.querySelector(".weathger").style.display = "none";
+                document.querySelector(".weather").style.display = "none";
                 return;
             } else {
                 var data = await response.json();
